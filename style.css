@@ -1,0 +1,102 @@
+*{
+    margin: 10px 0 10px 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+}
+body{
+    background-color: brown;
+}
+/* editing title */
+#title{
+    text-align: center;
+    font-size: 300%;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+/* editing description */
+#description{
+    font-size: xx-large;
+    font-style: italic;
+    text-align: center;
+}
+/* editing main form */
+#survey-form{
+    margin: 30px;
+    padding: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    background-image:linear-gradient(blue,black) ;
+}
+/* editing input */
+input{
+    color: black;
+}
+#email-label{
+    width: 100%;
+    height:35px;
+    border-radius: 5px;
+    padding: 10px;
+}
+#name-label{
+    width: 100%;
+    height:35px;
+    padding: 10px;
+    border-radius: 5px;
+}
+#number-label{
+    width: 120px;
+    padding: 5px;
+    border-radius: 5px;
+}
+/* ediing my number input */
+#name-div{
+    font-size: 25px;
+    font-weight: bold;
+}
+#email-div{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+#Age{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+#gender{
+    font-size: 25px;
+    font-weight: bold;
+    
+}
+.suggestion{
+    font-size: 20px;
+}
+.option{
+    font-size: 18px;
+}
+span{
+    font-size: 18px;
+    color: grey;
+}
+select{
+    color: black;
+}
+select option{
+    color: black;
+}
+#comment-box{
+    min-width: 100%;
+    max-width: 100%;
+    min-height: 120px;
+    border-radius: 5px;
+    color: black;
+}
+#submit{
+    border-radius: 5px;
+    color: black;
+    padding: 3px;
+    width: 100%;
+    background-color: greenyellow;
+    font-size: x-large;
+}

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1 id="title">FCC-Survey-Form</h1>
+    <p id="description">Type what you think about us.......</p>
+    <form id="survey-form">
+        <div id="name">
+            <div id="name-div">Name</div> <input type="text" id="name-label" placeholder="enter your name" required>
+        </div>
+        <div id="email">
+            <div id="email-div">Email</div> <input type="email" id="email-label" placeholder="enter your email" required>
+        </div>
+        <div id="number">
+            <div id="Age">Age</div> <input type="number" min="10" max="99" id="number-label" placeholder="enter your age" required>
+        </div>
+        <div id="gender">Gender</div>
+            <select name="gender" id="dropdown">
+                <option value="select your gender" disabled selected>select your gender</option>
+                <option value="male">Male</option>
+                <option value="female">Female</option>
+                <option value="rather not say">Rather not say</option>
+            </select>
+        <div>
+            <label class="suggestion">Anything you want to see improve?<span>(check all that apply)</span></label>
+            <div class="option">
+                <input type="checkbox">
+                Front-end
+            </div>
+            <div class="option">
+                <input type="checkbox">
+                Backend-end
+            </div>
+            <div class="option">
+                <input type="checkbox">
+                projects
+            </div>
+            <div class="option">
+                <input type="checkbox">
+                Data-Visualisation
+            </div>
+            <div class="option">
+                <input type="checkbox">
+                Addition course
+            </div>
+        </div>
+        <div class="suggestion">Any suggestion that how can we improve us ?</div>
+        <textarea id="comment-box"></textarea>
+        <div><button type="submit" id="submit">Submit</button></div>
+    </form>
+</body>
+
+</html>
